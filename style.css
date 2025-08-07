@@ -1,0 +1,135 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+header {
+  background-color: #462407;
+  width: 100%;
+  height: 70px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  z-index: 999;
+}
+
+nav {
+  display: flex;
+  gap: 20px;
+  padding-right: 35px;
+}
+
+a {
+  font-size: 20px;
+  color: white;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+.logo {
+  padding-left: 30px;
+  font-size: 30px;
+  text-transform: uppercase;
+}
+
+/* Main Section */
+
+.home {
+  background-image: url(./image/karsten-winegeart-dXflF0hACpI-unsplash.jpg);
+  height: 100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home .content {
+  text-align: center;
+  margin-top: 10%;
+  color: #000;
+}
+
+.home .content h1 {
+  font-size: 40px;
+}
+
+.home .content p {
+  font-size: 24px;
+  width: 60%;
+  margin: auto;
+}
+
+.btn {
+  background-color: #462407;
+  padding: 10px 40px;
+  display: inline-block;
+  margin-top: 20px;
+  border-radius: 8px;
+  transition: 0.4s;
+}
+
+.btn:hover {
+  background-color: #9f5310;
+  color: #000;
+}
+
+/* Service Section */
+
+.service {
+  padding: 150px;
+  background-color: #f6f6f6;
+}
+
+.service .cards{
+  display: flex;
+   justify-content: center;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+.service .card{
+  width: 200px;
+  padding: 25px;
+  border: 1px solid #462407;
+  border-radius: 10px;
+  margin: 15px;
+}
+
+.service .icon{
+  font-size: 40px;
+  color: #462407;
+  text-align: center;
+}
+
+.service .info{
+  text-align: center;
+}
+
+.service .info h3{
+  font-size: 20px;
+  margin: 15px;
+}
+
+.service .info p{
+  font-size: 16px;
+  color: #222;
+}
+
+
+.service .row{
+  background-color: #462407;
+  padding: 50px 40px;
+  width: 70%;
+  margin: auto;
+  border-radius: 10px;
+}
+
+.service .row p{
+color: #fff;
+font-weight: 500;
+font-size: 20px;
+line-height: 1.5;
+}
