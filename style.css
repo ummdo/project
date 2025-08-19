@@ -238,3 +238,53 @@ a {
 .features-section .qualitie:hover{
   border: 1px solid #219ebc;
 }
+
+
+.options{
+  background-image: url(./istockphoto-2176122055-612x612.webp);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  padding: 6rem 0;
+  margin-bottom: 9rem;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+
+.options::before{
+  content: "";
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0,0,0,0.7);
+  position: absolute;
+  z-index: -1;
+}
+
+.options .option{
+  display: grid;
+  grid-template-columns: repeat(4, auto);
+}
+
+.options .option .colume{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.options .option .colume i{
+  font-size: 50px;
+  padding-left: 30px;
+}
+
+.options .option .colume span{
+  font-size: 25px;
+  font-weight: 600;
+}
+
+.options .option .colume p{
+  font-size: 20px;
+  font-weight: 700;
+}
